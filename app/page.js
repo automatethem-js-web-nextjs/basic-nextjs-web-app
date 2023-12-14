@@ -1,3 +1,4 @@
+/*
 import Image from 'next/image'
 
 export default function Home() {
@@ -111,3 +112,18 @@ export default function Home() {
     </main>
   )
 }
+*/
+///*
+import Head from 'next/head'
+
+const App = () => {
+  return <>
+    <Head>
+      <title>App</title>
+    </Head>
+    <div>Hello world</div>
+  </>;
+};
+
+export default App;
+//*/
