@@ -35,3 +35,10 @@ http://localhost:3000
 ## vercel
 
 https://basic-app-nextjs-app-router.vercel.app/
+
+
+## API
+
+https://github.com/automatethem-js-server-api/weather-chatgpt-plugin-nextjs/blob/main/app/api/weather/route.ts#L8C3-L8C59
+
+https://github.com/vercel/next.js/discussions/46483#discussioncomment-5121777
