@@ -51,3 +51,29 @@ Route Handlers는 웹 요청 및 응답 API를 사용하여 특정 경로에 대
 // app/api/route.ts  
 export async function GET(request: Request) {}  
 https://github.com/XionWCFM/Nextjs-docs-Korean-translation/blob/main/nextjsdocs/BuildingYourApplication/Upgrading/App_Router_Migration.md#api-routes
+
+## 2
+
+App router api
+
+http://localhost:3000/api/basic-app-nextjs-app-router
+```
+{"name":"John Doe"}
+```
+
+http://localhost:3000/api/hello
+```
+{"name":"John Doe"}
+```
+
+Page router api
+
+http://localhost:3000/api/basic-app-nextjs-app-router/api
+```
+[{"label":"pos","score":0.8038843274116516}]
+```
+
+http://localhost:3000/api/hello2
+```
+{"name":"John Doe2"}
+```
