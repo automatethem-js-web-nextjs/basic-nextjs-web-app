@@ -1,16 +1,16 @@
-# basic-app-nextjs-app-router
+# basic-app-nextjs
 
 ## 실행
 
 ### 프로젝트 생성
 
 ```
-npx create-next-app basic-app-nextjs-app-router
-//npx create-next-app basic-app-nextjs-app-router --typescript
-cd basic-app-nextjs-app-router
+npx create-next-app basic-app-nextjs
+//npx create-next-app basic-app-nextjs --typescript
+cd basic-app-nextjs
 ```
 ```
-cd basic-app-nextjs-app-router
+cd basic-app-nextjs
 ```
 
 ### 패키지 설치
@@ -34,7 +34,7 @@ http://localhost:3000
 
 ## vercel
 
-https://basic-app-nextjs-app-router.vercel.app/
+https://basic-app-nextjs.vercel.app/
 
 
 ## API
@@ -77,3 +77,11 @@ http://localhost:3000/api/pages-hello
 ```
 {"name":"John Doe2"}
 ```
+
+## 참고 자료
+
+https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
+
+https://akava.io/blog/using-nextjs-app-router-with-vercel-edge-functions
+
+https://rocketengine.tistory.com/entry/NextJS-13-Routing-Route-Handlers-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88
