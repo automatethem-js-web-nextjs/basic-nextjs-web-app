@@ -1,6 +1,6 @@
 ///*
 const handler = (request, response) => {
-    //http://localhost:3000/api/basic-app-nextjs/api?inputs=Hello
+    //http://localhost:3000/api/basic-app-nextjs/pages-api?inputs=Hello
     if (request.method == "GET") {
         const params = request.query;
         const inputs = params["inputs"];
