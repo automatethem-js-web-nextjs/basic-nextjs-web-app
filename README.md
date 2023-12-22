@@ -42,3 +42,12 @@ https://basic-app-nextjs-app-router.vercel.app/
 https://github.com/automatethem-js-server-api/weather-chatgpt-plugin-nextjs/blob/main/app/api/weather/route.ts#L8C3-L8C59
 
 https://github.com/vercel/next.js/discussions/46483#discussioncomment-5121777
+
+## 1
+
+API Routes  
+API Routes는 pages/api 디렉토리에서 변경없이 계속 작동합니다. 하지만 app 디렉토리 내의 Route Handlers로 대체되었습니다.  
+Route Handlers는 웹 요청 및 응답 API를 사용하여 특정 경로에 대한 사용자 정의 요청 핸들러를 생성할 수 있도록 해줍니다.  
+// app/api/route.ts  
+export async function GET(request: Request) {}  
+https://github.com/XionWCFM/Nextjs-docs-Korean-translation/blob/main/nextjsdocs/BuildingYourApplication/Upgrading/App_Router_Migration.md#api-routes
