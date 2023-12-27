@@ -22,6 +22,5 @@ export async function POST(request) {
     return NextResponse.json({ name: 'John Doe' })
 }
 
-//export const runtime = 'nodejs' //'nodejs' (default), 'edge'
 //export const runtime = 'nodejs' //디폴트 
-export const runtime = 'edge'
+//export const runtime = 'edge'
