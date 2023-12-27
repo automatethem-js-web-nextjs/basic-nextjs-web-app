@@ -126,6 +126,6 @@ const App = () => {
 };
 export default App;
 
-export const runtime = 'nodejs' //디폴트 
-//export const runtime = 'edge' //에러
+//export const runtime = 'nodejs' //디폴트 
+export const runtime = 'edge' //에러
 //*/
