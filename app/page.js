@@ -126,4 +126,6 @@ const App = () => {
 };
 
 export default App;
+
+//export const runtime = 'nodejs' //'nodejs' (default), 'edge'
 //*/
