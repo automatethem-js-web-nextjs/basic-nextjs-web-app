@@ -85,3 +85,9 @@ https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/
 https://akava.io/blog/using-nextjs-app-router-with-vercel-edge-functions
 
 https://rocketengine.tistory.com/entry/NextJS-13-Routing-Route-Handlers-%ED%99%9C%EC%9A%A9%EB%B0%A9%EC%95%88
+
+export const runtime = 'edge' // 'nodejs' (default) | 'edge'  
+https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes  
+export const runtime = 'nodejs'  
+// 'edge' | 'nodejs'  
+https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
