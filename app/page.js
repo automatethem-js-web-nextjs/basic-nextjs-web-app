@@ -116,18 +116,6 @@ export default function Home() {
 ///*
 import Head from 'next/head'
 
-/*
-const App = () => {
-  return <>
-    <Head>
-      <title>App</title>
-    </Head>
-    <div>Hello world</div>
-  </>;
-};
-
-export default App;
-*/
 const App = () => {
   return <>
     <Head>
@@ -138,7 +126,6 @@ const App = () => {
 };
 export default App;
 
-export const runtime = 'edge' //'nodejs' (default), 'edge'
-
-//export const runtime = 'nodejs' //'nodejs' (default), 'edge'
+export const runtime = 'nodejs' //디폴트 
+//export const runtime = 'edge' //에러
 //*/
