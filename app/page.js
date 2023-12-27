@@ -112,9 +112,6 @@ export default function Home() {
     </main>
   )
 }
-
-//export const runtime = 'nodejs'; //디폴트 
-//export const runtime = 'edge';
 */
 ///*
 import Image from 'next/image'
@@ -231,9 +228,6 @@ function Home() {
   )
 }
 export default Home;
-
-//export const runtime = 'nodejs'; //디폴트 
-//export const runtime = 'edge';
 //*/
 /*
 import Head from 'next/head'
@@ -247,7 +241,4 @@ const App = () => {
   </>;
 };
 export default App;
-
-//export const runtime = 'nodejs'; //디폴트 
-//export const runtime = 'edge';
 */
