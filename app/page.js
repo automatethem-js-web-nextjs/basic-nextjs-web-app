@@ -115,7 +115,8 @@ export default function Home() {
 */
 ///*
 import Head from 'next/head'
- 
+
+/*
 const App = () => {
   return <>
     <Head>
@@ -126,6 +127,15 @@ const App = () => {
 };
 
 export default App;
+*/
+export default const App = () => {
+  return <>
+    <Head>
+      <title>App</title>
+    </Head>
+    <div>Hello world</div>
+  </>;
+};
 
 //export const runtime = 'nodejs' //'nodejs' (default), 'edge'
 //*/
