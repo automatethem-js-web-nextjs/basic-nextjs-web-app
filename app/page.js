@@ -113,7 +113,7 @@ export default function Home() {
   )
 }
 
-export const runtime = 'nodejs'; //디폴트 
+//export const runtime = 'nodejs'; //디폴트 
 //export const runtime = 'edge';
 */
 ///*
@@ -232,7 +232,7 @@ function Home() {
 }
 export default Home;
 
-export const runtime = 'nodejs'; //디폴트 
+//export const runtime = 'nodejs'; //디폴트 
 //export const runtime = 'edge';
 //*/
 /*
@@ -248,6 +248,6 @@ const App = () => {
 };
 export default App;
 
-export const runtime = 'nodejs'; //디폴트 
+//export const runtime = 'nodejs'; //디폴트 
 //export const runtime = 'edge';
 */
