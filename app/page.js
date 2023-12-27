@@ -128,7 +128,7 @@ const App = () => {
 
 export default App;
 */
-export default const App = () => {
+const App = () => {
   return <>
     <Head>
       <title>App</title>
@@ -136,6 +136,8 @@ export default const App = () => {
     <div>Hello world</div>
   </>;
 };
+export default App;
+
 export const runtime = 'edge' //'nodejs' (default), 'edge'
 
 //export const runtime = 'nodejs' //'nodejs' (default), 'edge'
