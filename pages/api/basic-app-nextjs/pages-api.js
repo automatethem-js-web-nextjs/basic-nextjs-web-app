@@ -41,8 +41,10 @@ const handler = (request, response) => {
         response.send(responseJson);
     }
 }
-
 export default handler;
+
+export const runtime = 'nodejs' //디폴트 
+//export const runtime = 'edge' //에러
 //*/
 /*
 import { NextRequest, NextResponse } from "next/server";
@@ -85,10 +87,8 @@ const handler = async (request, context) => {
         return NextResponse.json(responseJson);
     }
 };
-
-export const config = {
-  runtime: 'edge',
-}
-
 export default handler;
+
+//export const runtime = 'nodejs' //디폴트 //에러
+export const runtime = 'edge'
 */
