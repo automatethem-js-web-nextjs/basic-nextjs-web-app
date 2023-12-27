@@ -136,6 +136,7 @@ export default const App = () => {
     <div>Hello world</div>
   </>;
 };
+export const runtime = 'edge' //'nodejs' (default), 'edge'
 
 //export const runtime = 'nodejs' //'nodejs' (default), 'edge'
 //*/
