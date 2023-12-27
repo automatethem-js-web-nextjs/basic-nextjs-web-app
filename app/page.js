@@ -113,7 +113,7 @@ export default function Home() {
   )
 }
 */
-///*
+/*
 import Image from 'next/image'
 
 function Home() {
@@ -228,8 +228,8 @@ function Home() {
   )
 }
 export default Home;
-//*/
-/*
+*/
+///*
 import Head from 'next/head'
 
 const App = () => {
@@ -241,4 +241,4 @@ const App = () => {
   </>;
 };
 export default App;
-*/
+//*/
