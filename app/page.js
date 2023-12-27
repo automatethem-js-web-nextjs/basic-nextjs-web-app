@@ -230,7 +230,7 @@ function Home() {
     </main>
   )
 }
-export default App;
+export default Home;
 
 export const runtime = 'nodejs'; //디폴트 
 //export const runtime = 'edge';
