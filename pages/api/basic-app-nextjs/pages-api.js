@@ -1,6 +1,6 @@
 ///*
 const handler = (request, response) => {
-    //http://localhost:3000/api/basic-app-nextjs/pages-api?inputs=Hello
+    //http://localhost:3000/api/pages-api?inputs=Hello
     if (request.method == "GET") {
         const params = request.query;
         const inputs = params["inputs"];
@@ -55,7 +55,7 @@ const handler = async (request, context) => {
         const inputs = params.get("inputs");
         console.log(inputs);
         //
-        //console.log(request.url); //https://basic-api-nextjs-edge.vercel.app/api/basic-api-nextjs-edge/api?inputs=Hello
+        //console.log(request.url); //https://basic-api-nextjs-edge.vercel.app/api/pages-api?inputs=Hello
         //const url = new URL(request.url);
         //const params = url.searchParams;
         //const inputs = params.get("inputs");
