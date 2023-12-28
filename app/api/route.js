@@ -5,7 +5,7 @@ export async function GET(request) {
     const inputs = params.get("inputs");
     console.log(inputs);
     //
-    //console.log(request.url); //https://basic-api-nextjs-edge.vercel.app/api/basic-api-nextjs-edge/api?inputs=Hello
+    //console.log(request.url); //https://basic-api-nextjs-edge.vercel.app/api?inputs=Hello
     //const url = new URL(request.url);
     //const params = url.searchParams;
     //const inputs = params.get("inputs");
