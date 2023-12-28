@@ -56,7 +56,7 @@ https://github.com/XionWCFM/Nextjs-docs-Korean-translation/blob/main/nextjsdocs/
 
 App router api
 
-http://localhost:3000/api/basic-app-nextjs/api
+http://localhost:3000/api
 ```
 {"name":"John Doe"}
 ```
@@ -68,7 +68,7 @@ http://localhost:3000/api/hello
 
 Page router api
 
-http://localhost:3000/api/basic-app-nextjs/pages-api
+http://localhost:3000/api/pages-api
 ```
 [{"label":"pos","score":0.8038843274116516}]
 ```
