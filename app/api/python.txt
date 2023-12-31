@@ -1,4 +1,4 @@
-//https://vercel.com/docs/functions/configuring-functions/runtime#python
+#https://vercel.com/docs/functions/configuring-functions/runtime#python
 from http.server import BaseHTTPRequestHandler
  
 class handler(BaseHTTPRequestHandler):
