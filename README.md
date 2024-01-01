@@ -122,6 +122,10 @@ npm run dev -- -p 3000
 npm start -- -p 3000
 ```
 
+With npm using -- to pass arguments:  
+npm run dev -- -p 8080  
+https://stackoverflow.com/a/71140993
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
