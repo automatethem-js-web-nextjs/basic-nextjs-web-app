@@ -78,6 +78,50 @@ http://localhost:3000/api/pages-hello
 {"name":"John Doe2"}
 ```
 
+##
+
+### 1
+
+package.json
+```
+"dev": "next dev",
+"build": "next build",
+"start": "next start",
+```
+
+```
+npm run dev
+npm start
+```
+
+### 2
+
+package.json
+```
+"dev": "next dev -p 3000",
+"build": "next build",
+"start": "next start -p 3000",
+```
+
+```
+npm run dev
+npm start
+```
+
+### 3
+
+package.json
+```
+"dev": "next dev",
+"build": "next build",
+"start": "next start",
+```
+
+```
+npm run dev -- -p 3000
+npm start -- -p 3000
+```
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
