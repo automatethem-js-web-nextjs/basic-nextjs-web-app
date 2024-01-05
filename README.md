@@ -139,3 +139,6 @@ https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-
 export const runtime = 'nodejs'  
 // 'edge' | 'nodejs'  
 https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
+
+nextjs-404-page-app-router  
+https://maxschmitt.me/posts/nextjs-404-page-app-router
