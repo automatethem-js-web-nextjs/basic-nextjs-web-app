@@ -13,7 +13,7 @@ export async function GET(request) {
     //const inputs = params.get("inputs");
     //console.log(inputs);
     
-    return NextResponse.json({ name: 'John Doe' })
+    return NextResponse.json({ name: 'John Doe' });
 }
 
 export async function POST(request) {
@@ -21,7 +21,7 @@ export async function POST(request) {
     //console.log(json);
     //const intent = json["intent"]["name"];
 
-    return NextResponse.json({ name: 'John Doe' })
+    return NextResponse.json({ name: 'John Doe' });
 }
 
 //export const runtime = 'nodejs' //디폴트 
