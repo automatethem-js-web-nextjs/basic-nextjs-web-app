@@ -14,6 +14,12 @@ export async function GET(request) {
     //console.log(inputs);
     
     return NextResponse.json({ name: 'John Doe' });
+    //const response = new NextResponse("Ok", {
+    //    headers: {
+    //      'Content-Type': 'text/plain',
+    //    }
+    //});
+    //return response;
 }
 
 export async function POST(request) {
