@@ -126,6 +126,28 @@ With npm using -- to pass arguments:
 npm run dev -- -p 8080  
 https://stackoverflow.com/a/71140993
 
+#### text input
+
+http://localhost/api
+```
+curl http://localhost/api \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer AUTOMATETHEM" \
+-d '{
+    "inputs": "This is a good movie!"
+}'
+```
+
+```
+[
+  {
+    "label": "pos",
+    "score": 0.8038843274116516
+  }
+]
+```
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
