@@ -233,13 +233,13 @@ export default Home;
 ///*
 import Head from 'next/head'
 
-const App = () => {
+const Page = () => {
   return <>
     <Head>
-      <title>App</title>
+      <title>홈</title>
     </Head>
-    <div>Hello world</div>
+    <div>홈</div>
   </>;
 };
-export default App;
+export default Page;
 //*/
