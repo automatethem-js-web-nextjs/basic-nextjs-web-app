@@ -1,5 +1,7 @@
 # basic-app-nextjs
 
+https://youtu.be/SSlNBZEBXPo?list=PL63c_Ws9ecISwPzddQzQ671S_gzJA6M5z&t=239
+
 ## 실행
 
 ### 프로젝트 생성
