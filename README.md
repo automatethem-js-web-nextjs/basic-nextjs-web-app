@@ -173,3 +173,7 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config
 
 nextjs-404-page-app-router  
 https://maxschmitt.me/posts/nextjs-404-page-app-router
+
+font  
+https://www.youtube.com/watch?v=rW4p_MiowZ4&list=PL63c_Ws9ecISwPzddQzQ671S_gzJA6M5z&index=5    
+https://github.com/automatethem-js-web-nextjs/ecommerce-app-nextjs-nextauth-database-prisma/blob/main/app/layout.tsx
