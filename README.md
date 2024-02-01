@@ -196,6 +196,8 @@ module.exports = nextConfig
 //*/
 ```
 
+![](attach_files/1.png?raw=true)
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
