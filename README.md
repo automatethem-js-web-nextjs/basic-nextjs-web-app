@@ -155,6 +155,47 @@ curl http://localhost/api \
 ]
 ```
 
+## @/components
+
+import { ChatWindow } from "@/components/ChatWindow";  
+Module not found: Can't resolve '@/components #27666  
+https://github.com/vercel/next.js/discussions/27666#discussioncomment-7276467
+```
+/** @type {import('next').NextConfig} */
+/*
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true
+}
+
+module.exports = nextConfig
+*/
+///*
+const dotenv = require('dotenv');
+const path = require("path");
+
+dotenv.config();
+
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  env: {
+    OPENAI_API_KEY: process.env.OPENAI_API_KEY
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.resolve(__dirname, './'),
+    };
+
+    return config;
+  },
+}
+
+module.exports = nextConfig
+//*/
+```
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
