@@ -200,6 +200,10 @@ module.exports = nextConfig
 
 ![](attach_files/1.png?raw=true)
 
+## nextjs-doc-css-tailwind-daisyui
+
+https://github.com/automatethem-js-web-nextjs/nextjs-doc-css-tailwind-daisyui
+
 ## 참고 자료
 
 https://github.com/iambstha/blog-post-request-nextjs-app-router/blob/master/app/api/handleform/route.js
