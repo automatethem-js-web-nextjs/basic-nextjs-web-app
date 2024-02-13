@@ -159,7 +159,9 @@ curl http://localhost/api \
 
 import { ChatWindow } from "@/components/ChatWindow";  
 Module not found: Can't resolve '@/components #27666  
-https://github.com/vercel/next.js/discussions/27666#discussioncomment-7276467
+https://github.com/vercel/next.js/discussions/27666#discussioncomment-7276467  
+Absolute Imports  
+https://nextjs.org/docs/app/building-your-application/configuring/absolute-imports-and-module-aliases
 ```
 /** @type {import('next').NextConfig} */
 /*
