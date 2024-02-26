@@ -13,13 +13,9 @@ export async function GET(request) {
     //const inputs = params.get("inputs");
     //console.log(inputs);
     
-    return NextResponse.json({ name: 'John Doe' });
-    //const response = new NextResponse("Ok", {
-    //    headers: {
-    //      'Content-Type': 'text/plain',
-    //    }
-    //});
-    //return response;
+    //return new NextResponse("Hello", { headers: { 'Content-Type': 'text/plain' } });
+    //return new NextResponse(JSON.stringify({ message: 'Hello' }), { headers: { "Content-Type": "application/json" } });
+    return NextResponse.json({ message: 'Hello' });
 }
 
 export async function POST(request) {
@@ -27,7 +23,7 @@ export async function POST(request) {
     //console.log(json);
     //const intent = json["intent"]["name"];
 
-    return NextResponse.json({ name: 'John Doe' });
+    return NextResponse.json({ name: 'Hello' });
 }
 
 //export const runtime = 'nodejs' //디폴트 
