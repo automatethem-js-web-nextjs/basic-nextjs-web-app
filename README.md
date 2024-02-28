@@ -2,8 +2,6 @@
 
 ## 실행
 
-### 프로젝트 생성
-
 ```
 //npx create-next-app basic-app-nextjs
 //npx create-next-app basic-app-nextjs --typescript
