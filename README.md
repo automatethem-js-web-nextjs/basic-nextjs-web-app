@@ -5,26 +5,18 @@
 ### 프로젝트 생성
 
 ```
-npx create-next-app basic-app-nextjs
+//npx create-next-app basic-app-nextjs
 //npx create-next-app basic-app-nextjs --typescript
+//cd basic-app-nextjs
 cd basic-app-nextjs
 ```
-```
-cd basic-app-nextjs
-```
-
-### 패키지 설치
 
 ```
 npm install
 ```
 
-### 실행
-
 ```
-npm run dev
-```
-```
+//npm run dev
 npm run build
 //npm run start
 npm start
