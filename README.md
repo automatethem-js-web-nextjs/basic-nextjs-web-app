@@ -14,8 +14,11 @@ npm install
 ```
 
 ```
+//npx next dev
 //npm run dev
+//npx next build
 npm run build
+//npx next start
 //npm run start
 npm start
 ```
