@@ -155,6 +155,12 @@ module.exports = nextConfig
 
 ![](attach-files/1.png?raw=true)
 
+https://youtu.be/69vpmZgDeN8?t=1383
+
+
+
+
+
 ## nextjs-doc-css-tailwind-daisyui
 
 https://github.com/automatethem-js-web-nextjs/nextjs-doc-css-tailwind-daisyui
