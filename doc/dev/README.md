@@ -153,7 +153,7 @@ module.exports = nextConfig
 //*/
 ```
 
-![](attach_files/1.png?raw=true)
+![](attach-files/1.png?raw=true)
 
 ## nextjs-doc-css-tailwind-daisyui
 
