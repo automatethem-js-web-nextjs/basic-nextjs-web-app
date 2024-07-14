@@ -157,9 +157,7 @@ module.exports = nextConfig
 
 https://youtu.be/69vpmZgDeN8?t=1383
 
-
-
-
+![](attach-files/attach-files/333.png?raw=true)
 
 ## nextjs-doc-css-tailwind-daisyui
 
