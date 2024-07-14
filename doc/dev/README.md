@@ -185,4 +185,4 @@ https://github.com/automatethem-js-web-nextjs/ecommerce-app-nextjs-nextauth-data
 
 ## 1
 
-https://basic-app-nextjs-teal.vercel.app/api/pages/api?inputs=Hello
+https://basic-app-nextjs-liart.vercel.app/api/pages/api?inputs=Hello
