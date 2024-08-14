@@ -67,7 +67,7 @@ const Page = () => {
 };
 export default Page;
 //*/
-​```
+```
 
 ## 실행
 ```
